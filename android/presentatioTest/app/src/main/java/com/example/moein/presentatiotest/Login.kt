@@ -39,6 +39,8 @@ class Login : AppCompatActivity() {
 
             toast(res.message)
 
+          //  if(res.status)//TODO goto MainActivity
+
         }
 
     }
