@@ -14,19 +14,19 @@ class SignUp : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
 
-        val fullName=signup_fullName.text.toString()
+        val username=signup_username.text.toString()
         val email=signup_userEmailId.text.toString()
         val mobile=signup_mobileNumber.text.toString()
         val location=signup_location.text.toString()
         val password=signup_password.text.toString()
         val confPassword=signup_confirmPassword.text.toString()
 
-        signup(fullName,email,mobile,location,password,confPassword)
+        signup(username,email,mobile,location,password,confPassword)
 
 
     }
 
-    private fun signup(fullname:String,
+    private fun signup(username:String,
                              email:String,
                                 mobile:String,
                                     location:String,
@@ -36,9 +36,9 @@ class SignUp : AppCompatActivity() {
 
         val postReq= app.volleyObject
 
-        val info=infoFunc(fullname,email,mobile,location,password,confPassword)
+        val info=infoFunc(username,email,mobile,location,password,confPassword)
 
-        postReq.post("signUp", info){response ->
+        postReq.post("signup", info){response ->
 
             val res=app.Gson.fromJson(response.toString(),signupRes::class.java)
 

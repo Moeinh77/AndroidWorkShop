@@ -40,9 +40,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && $req -> action){
     // receive all input values from the form
     $username = $req -> username;
     $email = $req -> email;
-    $password_1 = $req -> password_1;
-    $password_2 = $req -> password_2;
+    $password_1 = $req -> password;
+    $password_2 = $req -> confPassword;
     $name = $req -> name;
+    $location=$req -> location;
+    $mobile=$req -> mobile;
 
     if (empty($username)) {
       echo json_response("Please enter an username !"
@@ -89,7 +91,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && $req -> action){
 
         $password = md5($password_1);//encrypt the password before saving in the database
 
-        $query = "INSERT INTO users (`username`, `password`, `email`,`name`)
+        $query = "INSERT INTO users (`username`, `password`, `email`,`mobile`, `location`)
   			  VALUES('$username', '$password', '$email','$name')";
 
         $result = $db->query($query);
