@@ -1,14 +1,8 @@
 {
- 	"action": "signup"
+ 	"action": "login"
 	,
-  	"name": "moein"
+  	"username": "moeinh77"
 	,
-	"email":"moeinhasani77@gmail.com"
-	,
-	"username":"moeinh77"
-	,
-	"password_1":"12345"
-	,
-	"password_2":"12345"	
+	"password":"123"	
 
 }

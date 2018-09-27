@@ -132,8 +132,6 @@ if($req -> action == 'login'){
 
         $res=$result->fetch_assoc();
 
-        echo json_response($query
-                    ,200);
         if ($result->num_rows > 0) {
           echo json_response("Successfully Loged in,Welcome back $name !"
                       ,200);
