@@ -10,7 +10,7 @@ class VolleyRequestInside : ServiceInterface {
 
     val TAG = "****VOLLEY****"
 
-    val url = "http://www.professorcomment.tk/main.php"
+    val url = "yourwebsite"
 
     override fun post(action: String, params: JSONObject?, completionHandler:
     (response: JSONObject?) -> Unit) {
