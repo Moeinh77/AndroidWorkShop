@@ -1,7 +1,7 @@
 <android.support.constraint.ConstraintLayout
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@color/background_color3"
+    android:background="@color/background_color1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >

@@ -5,6 +5,7 @@ import android.os.Bundle
 import com.example.moein.presentatiotest.GSON.serverResponse
 import com.example.moein.presentatiotest.volley.app
 import kotlinx.android.synthetic.main.activity_login.*
+import org.jetbrains.anko.intentFor
 import org.jetbrains.anko.toast
 import org.json.JSONObject
 
@@ -13,6 +14,13 @@ class Login : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+
+        login_createAccount.setOnClickListener {
+
+            startActivity(intentFor<SignUp>())
+            finish()
+
+        }
 
         loginBtn.setOnClickListener{
 
