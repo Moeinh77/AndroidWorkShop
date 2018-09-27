@@ -2,7 +2,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:padding="20dp"
-    android:background="@color/background_color">
+    android:background="@color/background_color1">
 
     <LinearLayout
         android:id="@+id/login_layout"
