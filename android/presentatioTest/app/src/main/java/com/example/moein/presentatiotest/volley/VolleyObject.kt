@@ -10,10 +10,6 @@ class VolleyObject : ServiceInterface {
 
     private val service = VolleyRequestInside()
 
-    override fun post(action: String, completionHandler: (response: JSONObject?) -> Unit) {
-        service.post(action, completionHandler)
-    }
-
     override fun post(action: String, params: JSONObject?, completionHandler: (response: JSONObject?) -> Unit) {
         service.post(action, params, completionHandler)
     }

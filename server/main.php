@@ -42,7 +42,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && $req -> action){
     $email = $req -> email;
     $password_1 = $req -> password;
     $password_2 = $req -> confPassword;
-    $name = $req -> name;
     $location=$req -> location;
     $mobile=$req -> mobile;
 
@@ -92,15 +91,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && $req -> action){
         $password = md5($password_1);//encrypt the password before saving in the database
 
         $query = "INSERT INTO users (`username`, `password`, `email`,`mobile`, `location`)
-  			  VALUES('$username', '$password', '$email','$name')";
+  			  VALUES('$username', '$password', '$email','$mobile','$location')";
 
         $result = $db->query($query);
 
-        if (!$result) {
-            echo json_response("Error: $db->error"
-                          ,500);
+        if ($result) {
+          echo json_response("Successfully Signed up, Welcome $name !"
+                      ,200);
         } else {
-            echo json_response("Sucess: Welcome $name !"
+          echo json_response("Error: $db->error"
                         ,500);
         }
     }
@@ -109,49 +108,41 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && $req -> action){
 
 if($req -> action == 'login'){
 
-    $username = $db->real_escape_string($_POST['username']);
-    $password = $db->real_escape_string($_POST['password']);
+   $noErrors = True;
+
+   $username = $req -> username;
+   $password = $req -> password;
 
     if (empty($username)) {
-        array_push($errors, "Username is required");
+       echo json_response("Please enter your Username !"
+                    ,400);
+        $noErrors=false;
     }
     if (empty($password)) {
-        array_push($errors, "Password is required");
+       echo json_response("Please enter your Password !"
+                   ,400);
+        $noErrors=false;
     }
 
-    if (count($errors) == 0) {
-
+    if ($noErrors) {
         $password = md5($password);//encodes the pass word so that it would be same as saved one
 
-        $query = "SELECT * FROM user WHERE Uname='$username' AND password='$password'; ";
+        $query = "SELECT * FROM users WHERE `username`='$username' AND `password`='$password'";
         $result = $db->query($query);
 
-        if ($result) {
+        $res=$result->fetch_assoc();
 
-            $_SESSION['username'] = $result->fetch_assoc()['Uname'];
-            $_SESSION['message'] = "با موفقیت وارد حساب خود شدید !";
-
+        echo json_response($query
+                    ,200);
+        if ($result->num_rows > 0) {
+          echo json_response("Successfully Loged in,Welcome back $name !"
+                      ,200);
         } else {
-            array_push($errors, "کاربری با این مشخصات پیدا نشد...");
-            echo $db->error;
-        }
-    } else {
-
-        foreach ($errors as $e) {
-            echo $e;
+          echo json_response("Error: no user with this info was found !"
+                        ,500);
         }
 
-    }
-
+      }
 }
-
-// $$$$$$$$$$$$$$$$$$$$$$$     LOGOUT   $$$$$$$$$$$$$$$$$$$$$$$
-
-// if (isset($_POST['logout_bt'])) {
-//
-//     $_SESSION['username'] = null;
-//     session_destroy();
-//
-// }
 }
 ?>

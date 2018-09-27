@@ -22,16 +22,16 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/login_emailid"
+            android:id="@+id/login_username"
             android:singleLine="true"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:background="@android:color/transparent"
-            android:drawableLeft="@drawable/email"
+            android:drawableLeft="@drawable/user"
             android:drawablePadding="8dp"
             android:gravity="center_vertical"
-            android:hint="@string/email"
+            android:hint="@string/username"
             android:inputType="textEmailAddress"
             android:padding="10dp"
             android:textColor="@color/white"

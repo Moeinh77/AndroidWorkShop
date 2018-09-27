@@ -13,6 +13,4 @@ interface ServiceInterface {
 
     fun post(action: String, params: JSONObject?, completionHandler: (response: JSONObject?) -> Unit)
 
-    fun post(action: String, completionHandler: (response: JSONObject?) -> Unit)
-
 }

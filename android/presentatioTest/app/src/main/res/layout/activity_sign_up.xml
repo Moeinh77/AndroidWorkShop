@@ -25,7 +25,7 @@
         android:drawableLeft="@drawable/user"
         android:drawablePadding="8dp"
         android:gravity="center_vertical"
-        android:hint="@string/fullName"
+        android:hint="@string/username"
         android:inputType="textCapWords"
         android:padding="10dp"
         android:singleLine="true"
