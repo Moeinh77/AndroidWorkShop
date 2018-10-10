@@ -12,3 +12,17 @@
 # syntax introduction codes
 آشنایی با سینتکس کاتلین و مقایسه کلاس دیتا کاتلین با کلاس های جاوا
 
+
+# لایبرری های استفاده شده:
+Volley:
+https://github.com/google/volley
+
+GSON:
+https://github.com/google/gson
+
+Anko:
+https://github.com/Kotlin/anko
+
+Lottie:
+https://github.com/airbnb/lottie-android
+https://www.lottiefiles.com/
