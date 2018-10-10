@@ -25,4 +25,5 @@ https://github.com/Kotlin/anko
 
 Lottie:
 https://github.com/airbnb/lottie-android
+
 https://www.lottiefiles.com/
