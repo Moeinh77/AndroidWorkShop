@@ -1,8 +1,9 @@
 <?php
 
-// $$$$$$$$$$$$$$$$$$$$$$$     response Function   $$$$$$$$$$$$$$$$$$$$$$$
+// $$$$$$$$$$$$$$$$$$$$$$$     response maker Function   $$$$$$$$$$$$$$$$$$$$$$$
 function json_response($message, $code = 200)
 {
+	//an array of status codes
     $status = array(
         200 => '200 OK',
         400 => '400 Bad Request',
@@ -15,19 +16,18 @@ function json_response($message, $code = 200)
         'status' => $code < 300, // success or not?
         'message' => $message
         ));
+
 }
 
-$db = new mysqli( 'localhost',
-                  'professo_admin',
-                  '##webofshadows##222',
-                  'professo_presentation');
+$db = new mysqli( 'localhost','root','123','users'); //setting up a connection to DB
 
-$db->set_charset("utf8");
+$db->set_charset("utf8");// utf-8 to support persianLan
 
-$req = json_decode(file_get_contents('php://input'));
+$req = json_decode(file_get_contents('php://input'));// for receiving the input sent from client
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && $req -> action){
 
+  //responsing the test request	
   if($req -> action == 'test'){
     echo json_response("test Succeeded !",200);
   }
@@ -67,7 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && $req -> action){
     }
 
     // first check the database to make sure
-    // a user does not already exist with the same username and/or email
+    // a user does not already exist with the same username and/or email and/or phone number
     $user_check_query = "SELECT * FROM users WHERE username='$username' OR email='$email' LIMIT 1";
     $user = $db->query($user_check_query)->fetch_assoc();
 
@@ -83,12 +83,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && $req -> action){
                           ,400);
             $noErrors=false;
         }
+
+           if ($user['mobile'] === $mobile) {
+            echo json_response( "There is another account associated with this Phone Number !"
+                          ,400);
+            $noErrors=false;
+        }
     }
 
     // Finally, register user if there are no errors in the form
     if ($noErrors) {
 
-        $password = md5($password_1);//encrypt the password before saving in the database
+        $password = md5($password_1);//encrypt the password before saving it in the database
 
         $query = "INSERT INTO users (`username`, `password`, `email`,`mobile`, `location`)
   			  VALUES('$username', '$password', '$email','$mobile','$location')";
@@ -141,6 +147,27 @@ if($req -> action == 'login'){
         }
 
       }
+	}
+
+// $$$$$$$$$$$$$$$$$$$$$$$  USER INFO $$$$$$$$$$$$$$$$$$$$$$$
+
+if($req -> action == 'userInfo'){
+
+	$username = $req -> username;
+
+	$query="SELECT * FROM users WHERE `username`='$username' ";
+
+	$result = $db->query($query);
+
+        if ($result) {
+          echo json_response($result->fetch_assoc()
+                      ,200);
+        } else {
+          echo json_response("Error: $db->error"
+                        ,500);
+        }
+
 }
+
 }
 ?>
