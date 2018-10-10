@@ -2,6 +2,7 @@ package com.example.moein.presentatiotest
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import com.example.moein.presentatiotest.GSON.serverResponse
 import com.example.moein.presentatiotest.volley.app
 import kotlinx.android.synthetic.main.activity_sign_up.*
@@ -10,6 +11,8 @@ import org.jetbrains.anko.toast
 import org.json.JSONObject
 
 class SignUp : AppCompatActivity() {
+
+    private val TAG="My-Signup"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -61,9 +64,11 @@ class SignUp : AppCompatActivity() {
             val res=app.Gson.fromJson(response.toString(),serverResponse::class.java)
 
             toast(res.message)
-
+            Log.v(TAG, res.toString())
             if (res.status) {
-                startActivity(intentFor<MainActivity>())
+                startActivity(intentFor<MainActivity>("username" to username ))
+                Log.v(TAG,"Successfully Signed Up !")
+                finish()
             }
         }
 

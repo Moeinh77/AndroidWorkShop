@@ -1,7 +1,7 @@
 {
- 	"action": "login"
+ 	"action": "userInfo"
 	,
-  	"username": "moeinh77"
+  	"username": "moein"
 	,
 	"password":"123"	
 

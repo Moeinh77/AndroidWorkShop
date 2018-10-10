@@ -8,9 +8,9 @@ import org.json.JSONObject
 
 class VolleyRequestInside : ServiceInterface {
 
-    val TAG = "****VOLLEY****"
+    val TAG = "My-Volley"
 
-    val url = "yourwebsite"
+    val url = "http://192.168.1.9/main.php"
 
     override fun post(action: String, params: JSONObject?, completionHandler:
     (response: JSONObject?) -> Unit) {
