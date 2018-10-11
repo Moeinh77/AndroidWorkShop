@@ -17,7 +17,11 @@
 
 https://developer.android.com/studio/
 
-# لایبرری های استفاده شده:
+# Refrences for Learning
+https://kotlinlang.org/docs/reference/android-overview.html
+http://shop.oreilly.com/product/0636920052982.do
+
+# Libraries used
 Volley:
 https://github.com/google/volley
 
@@ -28,6 +32,7 @@ Anko:
 https://github.com/Kotlin/anko
 
 Lottie:
+
 https://github.com/airbnb/lottie-android
 
 https://www.lottiefiles.com/
