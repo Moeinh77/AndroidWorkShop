@@ -23,12 +23,15 @@ http://shop.oreilly.com/product/0636920052982.do
 
 # Libraries used
 Volley:
+
 https://github.com/google/volley
 
 GSON:
+
 https://github.com/google/gson
 
 Anko:
+
 https://github.com/Kotlin/anko
 
 Lottie:
