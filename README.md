@@ -13,6 +13,10 @@
 آشنایی با سینتکس کاتلین و مقایسه کلاس دیتا کاتلین با کلاس های جاوا
 
 
+# Android Studio Download Links
+
+https://developer.android.com/studio/
+
 # لایبرری های استفاده شده:
 Volley:
 https://github.com/google/volley
