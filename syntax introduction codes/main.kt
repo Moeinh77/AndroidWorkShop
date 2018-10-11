@@ -1,6 +1,6 @@
 fun main(args: Array<String>) {
 
-/* //var and val
+/var and val
 
     var name = "moein"
     println(name)
@@ -14,9 +14,9 @@ fun main(args: Array<String>) {
     fName="Hasani2" //val cannot be reassigned
 
 
-*/
 
-/* //lateinit var
+
+ //lateinit var
 
 lateinit var name:String
 var fName :String = "hasani"
@@ -27,9 +27,9 @@ name="moein"
 
 println(name)
 
-*/
 
-/* //? in declarations
+
+ //? in declarations
 
 var name:String?="moein"
 name=null
@@ -37,15 +37,15 @@ name=null
 println(name)
 
 var fName:String="Hasani"
-fName=null//Null cannot be a value of nonNull type !
+fName=null //Null cannot be a value of nonNull type !
 
 println(fName)
 
 
-*/
 
-/* //? if null returns null if not null returns the original value
-    and $ in Strings
+
+//? if null returns null if not null returns the original value
+//    and $ in Strings
 
 var name:String? = "moein"
 name=null
@@ -55,10 +55,9 @@ val length2= name!!.length
 
 print("$length" )
 print( "$length2")//Exception in thread "main" kotlin.KotlinNullPointerException
+    
 
-*/
-
-/* //Unit and function return types
+//Unit and function return types
 
 fun myPrtFunc(name: String ="moein"):Unit{// Unit actually means it is returning nothing
 
@@ -70,9 +69,7 @@ myPrtFunc() //prints moein
 myPrtFunc("Someone else") //prints Someone else
 
 
-*/
-
-/* //when structure
+//when structure
 
 val name="Moein"
 when (name){
@@ -83,8 +80,8 @@ when (name){
     else->{println("Wrong spelling !")}
 }
 
-*/
-/* //arrayof and it and foreach   || input =>it
+
+//arrayof and it and foreach   || input =>it
 
 val myList= arrayOf(1,2,3,4,5)
 
@@ -94,9 +91,9 @@ val myList= arrayOf(1,2,3,4,5)
 
     }
 
-*/
 
-/* //multiple arguments
+
+ //multiple arguments
 
 fun printMultiple(vararg strings: Int) {
 
@@ -106,20 +103,26 @@ fun printMultiple(vararg strings: Int) {
 
 printMultiple(1,2,3,4,5)
 
-*/
 
-/* //java class and kotlin data class
+
+ //java class and kotlin data class
 
 val j = personJava("javaGuy", 40,"Java coder")
 val k = personKoltin("kotlinGuy", 20,"Kotlin coder")
 
-println(k.toString())
-println(j.toString())
+    println(j.getAge())
+    println(k.Age)
 
-if(personKoltin("moein",20) == personKoltin("moein",20) )
+    j.setJob("java programmer")
+    k.Job="kotlin programmer"
+
+    println(j.toString())
+    println(k.toString())
+
+if(personKoltin("moein",20).equals(personKoltin("moein",20) ) )
     println("equals")
 
-*/
+//*/
 
 }
 
