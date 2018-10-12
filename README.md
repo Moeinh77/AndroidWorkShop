@@ -17,8 +17,12 @@
 
 https://developer.android.com/studio/
 
-# Refrences for Learning
+# More on discussed topics
+activites:https://developer.android.com/reference/android/app/Activity
+
+# Refrences for Learning Kotlin
 https://kotlinlang.org/docs/reference/android-overview.html
+
 http://shop.oreilly.com/product/0636920052982.do
 
 # Libraries used
