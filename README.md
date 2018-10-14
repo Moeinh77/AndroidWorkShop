@@ -30,14 +30,6 @@ wiadevelopers :
 http://yon.ir/8kf3s
 
 # Libraries used
-#### Volley:
-
-https://github.com/google/volley
-
-#### GSON:
-
-https://github.com/google/gson
-
 #### Anko:
 
 https://github.com/Kotlin/anko
@@ -47,3 +39,13 @@ https://github.com/Kotlin/anko
 https://github.com/airbnb/lottie-android
 
 https://www.lottiefiles.com/
+
+#### Volley:
+
+https://github.com/google/volley
+
+#### GSON:
+
+https://github.com/google/gson
+
+
