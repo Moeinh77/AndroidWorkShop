@@ -17,31 +17,31 @@ https://developer.android.com/reference/android/app/Activity
 
 Layout:
 
-####zero to hero :
+#### zero to hero :
 http://yon.ir/UazCv
 
-####wiadevelopers :
+#### wiadevelopers :
 http://yon.ir/8kf3s
 
 # Refrences for Learning Kotlin
-####https://kotlinlang.org/docs/reference/android-overview.html
+#### https://kotlinlang.org/docs/reference/android-overview.html
 
-####http://shop.oreilly.com/product/0636920052982.do
+#### http://shop.oreilly.com/product/0636920052982.do
 
 # Libraries used
-####Volley:
+#### Volley:
 
 https://github.com/google/volley
 
-####GSON:
+#### GSON:
 
 https://github.com/google/gson
 
-####Anko:
+#### Anko:
 
 https://github.com/Kotlin/anko
 
-####Lottie:
+#### Lottie:
 
 https://github.com/airbnb/lottie-android
 
