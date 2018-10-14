@@ -11,11 +11,9 @@ faradars :http://yon.ir/LKCOn
 android-studio.ir :http://yon.ir/Y785j
 
 # Refrences for Learning Kotlin
-#### kotlinlang:
-https://kotlinlang.org/docs/reference/android-overview.html
+kotlinlang :https://kotlinlang.org/docs/reference/android-overview.html
 
-#### O'reilly:
-http://shop.oreilly.com/product/0636920052982.do
+O'reilly :http://shop.oreilly.com/product/0636920052982.do
 
 
 # More on discussed topics
