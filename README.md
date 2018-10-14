@@ -17,7 +17,7 @@ https://developer.android.com/reference/android/app/Activity
 
 Layout:
 
-zero to hero :yon.ir/UazCv
+zero to hero :http://yon.ir/UazCv
 
 wiadevelopers :http://yon.ir/8kf3s
 
