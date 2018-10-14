@@ -24,9 +24,11 @@ http://yon.ir/UazCv
 http://yon.ir/8kf3s
 
 # Refrences for Learning Kotlin
-#### https://kotlinlang.org/docs/reference/android-overview.html
+#### kotlinlang:
+https://kotlinlang.org/docs/reference/android-overview.html
 
-#### http://shop.oreilly.com/product/0636920052982.do
+#### O'reilly:
+http://shop.oreilly.com/product/0636920052982.do
 
 # Libraries used
 #### Volley:
