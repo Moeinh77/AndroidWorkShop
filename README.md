@@ -11,16 +11,16 @@ faradars :http://yon.ir/LKCOn
 android-studio.ir :http://yon.ir/Y785j
 
 # More on discussed topics
-Activites:
+#### Activites:
 
 https://developer.android.com/reference/android/app/Activity
 
-Layout:
+#### Layout:
 
-#### zero to hero :
+zero to hero :
 http://yon.ir/UazCv
 
-#### wiadevelopers :
+wiadevelopers :
 http://yon.ir/8kf3s
 
 # Refrences for Learning Kotlin
