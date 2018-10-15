@@ -4,11 +4,11 @@
 
 # Android Studio Download and Installation
 
-:star:developer android:https://developer.android.com/studio/
+:star:Developer.android:https://developer.android.com/studio/
 
-:star:faradars :http://yon.ir/LKCOn
+:star:Faradars :http://yon.ir/LKCOn
 
-:star:android-studio.ir :http://yon.ir/Y785j
+:star:Android-studio.ir :http://yon.ir/Y785j
 
 # Refrences for Learning Kotlin
 :star:Kotlin guide for java developers :http://yon.ir/yhEJ5
@@ -20,22 +20,22 @@
 # Refrences for Learning Layout and XML in Android
 :star:Udacity :http://yon.ir/QuXdD
 
-:star:zero to hero :http://yon.ir/UazCv
+:star:Zero to hero :http://yon.ir/UazCv
 
-:star:wiadevelopers :http://yon.ir/8kf3s
+:star:Wiadevelopers :http://yon.ir/8kf3s
 
 # More on discussed topics
 #### Activites:
-:star:Developr android :http://yon.ir/Lmpra
+:star:Developer.android :http://yon.ir/Lmpra
 
-:star:programchi :http://yon.ir/oeySJ
+:star:Programchi :http://yon.ir/oeySJ
 
 #### Volley:
-:star:developer android :http://yon.ir/vLsjp
+:star:Developer.android :http://yon.ir/vLsjp
 
-:star:Varvet :http://yon.ir/cTWZH
+:star:Varvet :http://yon.ir/cTWZH (source for volley used code in the workshop)
 
-:star:faradars :http://yon.ir/UcTRc
+:star:Faradars :http://yon.ir/UcTRc
 
 # Libraries used
 #### :books:Anko:
