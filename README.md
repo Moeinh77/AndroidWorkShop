@@ -4,7 +4,7 @@
 
 # Android Studio Download and Installation
 
-:star:https://developer.android.com/studio/
+:star:developer android:https://developer.android.com/studio/
 
 :star:faradars :http://yon.ir/LKCOn
 
