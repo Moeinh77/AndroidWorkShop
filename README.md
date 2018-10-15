@@ -11,7 +11,7 @@
 :star:android-studio.ir :http://yon.ir/Y785j
 
 # Refrences for Learning Kotlin
-:star:Kotlin giude for java developers :https://github.com/MindorksOpenSource/from-java-to-kotlin
+:star:Kotlin guide for java developers :https://github.com/MindorksOpenSource/from-java-to-kotlin
 
 :star:kotlinlang :https://kotlinlang.org/docs/reference/android-overview.html
 
@@ -31,21 +31,21 @@ http://yon.ir/UazCv
 http://yon.ir/8kf3s
 
 # Libraries used
-#### Anko:
+#### :books:Anko:
 
 https://github.com/Kotlin/anko
 
-#### Lottie:
+#### :books:Lottie:
 
 https://github.com/airbnb/lottie-android
 
 https://www.lottiefiles.com/
 
-#### Volley:
+#### :books:Volley:
 
 https://github.com/google/volley
 
-#### GSON:
+#### :books:GSON:
 
 https://github.com/google/gson
 
