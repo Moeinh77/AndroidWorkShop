@@ -11,11 +11,11 @@
 :star:android-studio.ir :http://yon.ir/Y785j
 
 # Refrences for Learning Kotlin
-:star:Kotlin guide for java developers :https://github.com/MindorksOpenSource/from-java-to-kotlin
+:star:Kotlin guide for java developers :http://yon.ir/yhEJ5
 
-:star:kotlinlang :https://kotlinlang.org/docs/reference/android-overview.html
+:star:kotlinlang :http://yon.ir/G1OFf
 
-:star:O'reilly :http://shop.oreilly.com/product/0636920052982.do
+:star:O'reilly :http://yon.ir/aCpW3
 
 # Refrences for Learning Layout and XML in Android
 :star:Udacity :http://yon.ir/QuXdD
@@ -27,7 +27,7 @@
 # More on discussed topics
 #### Activites:
 
-:star:Developr android :https://developer.android.com/reference/android/app/Activity
+:star:Developr android :http://yon.ir/Lmpra
 
 # Libraries used
 #### :books:Anko:
