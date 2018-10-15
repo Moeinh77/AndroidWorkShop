@@ -4,30 +4,30 @@
 
 # Android Studio Download and Installation
 
-https://developer.android.com/studio/
+:star:https://developer.android.com/studio/
 
-faradars :http://yon.ir/LKCOn
+:star:faradars :http://yon.ir/LKCOn
 
-android-studio.ir :http://yon.ir/Y785j
+:star:android-studio.ir :http://yon.ir/Y785j
 
 # Refrences for Learning Kotlin
-Kotlin giude for java developers :https://github.com/MindorksOpenSource/from-java-to-kotlin
+:star:Kotlin giude for java developers :https://github.com/MindorksOpenSource/from-java-to-kotlin
 
-kotlinlang :https://kotlinlang.org/docs/reference/android-overview.html
+:star:kotlinlang :https://kotlinlang.org/docs/reference/android-overview.html
 
-O'reilly :http://shop.oreilly.com/product/0636920052982.do
+:star:O'reilly :http://shop.oreilly.com/product/0636920052982.do
 
 # More on discussed topics
 #### Activites:
 
-https://developer.android.com/reference/android/app/Activity
+:star:Developr android :https://developer.android.com/reference/android/app/Activity
 
 #### Layout:
 
-zero to hero :
+:star:zero to hero :
 http://yon.ir/UazCv
 
-wiadevelopers :
+:star:wiadevelopers :
 http://yon.ir/8kf3s
 
 # Libraries used
