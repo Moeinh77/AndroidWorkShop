@@ -1,5 +1,5 @@
 # AndroidWorkShop
-![](https://developer.android.com/static/images/kotlin/hero.svg)
+![](https://cdn.neow.in/news/images/uploaded/2017/05/1495046043_screen_shot_2017-05-17_at_11.33.03_am.jpg)
 
 
 # Android Studio Download and Installation
