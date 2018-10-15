@@ -17,18 +17,17 @@
 
 :star:O'reilly :http://shop.oreilly.com/product/0636920052982.do
 
+# Refrences for Learning Layout and XML in Android
+:star:Udacity :http://yon.ir/QuXdD
+
+:star:zero to hero :http://yon.ir/UazCv
+
+:star:wiadevelopers :http://yon.ir/8kf3s
+
 # More on discussed topics
 #### Activites:
 
 :star:Developr android :https://developer.android.com/reference/android/app/Activity
-
-#### Layout:
-
-:star:zero to hero :
-http://yon.ir/UazCv
-
-:star:wiadevelopers :
-http://yon.ir/8kf3s
 
 # Libraries used
 #### :books:Anko:
