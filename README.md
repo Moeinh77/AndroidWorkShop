@@ -1,5 +1,5 @@
 # AndroidWorkShop
-![](https://cdn.neow.in/news/images/uploaded/2017/05/1495046043_screen_shot_2017-05-17_at_11.33.03_am.jpg)
+![](https://alexdunndev.files.wordpress.com/2018/01/screen-shot-2018-01-23-at-10-16-58-am.png?w=825&h=510&crop=1)
 
 
 # Android Studio Download and Installation
