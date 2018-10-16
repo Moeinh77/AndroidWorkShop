@@ -13,6 +13,8 @@
 # Refrences for Learning Kotlin
 :star:Kotlin guide for java developers :http://yon.ir/yhEJ5
 
+:star:Genymotion :http://yon.ir/zx9zc
+
 :star:kotlinlang :http://yon.ir/G1OFf
 
 :star:O'reilly :http://yon.ir/aCpW3
