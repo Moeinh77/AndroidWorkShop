@@ -1,5 +1,5 @@
 # AndroidWorkShop
-![](https://alexdunndev.files.wordpress.com/2018/01/screen-shot-2018-01-23-at-10-16-58-am.png?w=825&h=510&crop=1
+![](https://alexdunndev.files.wordpress.com/2018/01/screen-shot-2018-01-23-at-10-16-58-am.png?w=825&h=510&crop=1)
 
 # Android Studio Download and Installation
 
