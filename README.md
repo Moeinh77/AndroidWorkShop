@@ -6,14 +6,14 @@
 
 :star:Developer.android:https://developer.android.com/studio/
 
+:star:Genymotion :http://yon.ir/zx9zc
+
 :star:Faradars :http://yon.ir/LKCOn
 
 :star:Android-studio.ir :http://yon.ir/Y785j
 
 # Refrences for Learning Kotlin
 :star:Kotlin guide for java developers :http://yon.ir/yhEJ5
-
-:star:Genymotion :http://yon.ir/zx9zc
 
 :star:kotlinlang :http://yon.ir/G1OFf
 
