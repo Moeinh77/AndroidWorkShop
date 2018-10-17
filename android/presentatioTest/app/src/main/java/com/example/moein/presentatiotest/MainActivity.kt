@@ -38,7 +38,6 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-
     }
 
     fun parseInfo(info:String):List<String>{
