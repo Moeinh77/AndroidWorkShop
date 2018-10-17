@@ -27,6 +27,8 @@
 
 # More on discussed topics
 #### Why Learning android programming:
+:star:Asayad :http://yon.ir/l6i88
+
 :star:Android authority :http://yon.ir/czpK6
 
 #### Activites:
