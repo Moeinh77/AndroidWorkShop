@@ -2,10 +2,15 @@
 ![](https://alexdunndev.files.wordpress.com/2018/01/screen-shot-2018-01-23-at-10-16-58-am.png?w=825&h=510&crop=1)
 
 # Android Studio Download and Installation
+#### Download:
 
-:star:Developer.android:https://developer.android.com/studio/
+:star:Developer.android :https://developer.android.com/studio/
+
+:stat:p30download :http://yon.ir/j4des
 
 :star:Genymotion :http://yon.ir/zx9zc
+
+#### Guides:
 
 :star:Faradars :http://yon.ir/LKCOn
 
