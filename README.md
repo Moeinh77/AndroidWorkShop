@@ -11,14 +11,14 @@
 
 :star:Android-studio.ir :http://yon.ir/Y785j
 
-# Reference for Learning Kotlin
+# References for Learning Kotlin
 :star:Kotlin guide for java developers :http://yon.ir/yhEJ5
 
 :star:kotlinlang :http://yon.ir/DamVy
 
 :star:O'reilly :http://yon.ir/aCpW3
 
-# Reference for Learning Layout and XML in Android
+# References for Learning Layout and XML in Android
 :star:Udacity :http://yon.ir/QuXdD
 
 :star:Zero to hero :http://yon.ir/UazCv
