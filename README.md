@@ -6,7 +6,7 @@
 
 :star:Developer.android :https://developer.android.com/studio/
 
-:stat:p30download :http://yon.ir/j4des
+:star:p30download :http://yon.ir/j4des
 
 :star:Genymotion :http://yon.ir/zx9zc
 
