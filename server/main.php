@@ -20,7 +20,6 @@ function json_response($message, $code = 200)
 }
 
 $db = new mysqli( 'localhost','root','123','users'); //setting up a connection to DB
-
 $db->set_charset("utf8");// utf-8 to support persianLan
 
 $req = json_decode(file_get_contents('php://input'));// for receiving the input sent from client
