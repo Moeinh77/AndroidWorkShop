@@ -1,6 +1,6 @@
 fun main(args: Array<String>) {
 
-/var and val
+ //var and val
 
     var name = "moein"
     println(name)
