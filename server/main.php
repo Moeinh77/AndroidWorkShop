@@ -138,7 +138,7 @@ if($req -> action == 'login'){
         $res=$result->fetch_assoc();
 
         if ($result->num_rows > 0) {
-          echo json_response("Successfully Loged in,Welcome back $name !"
+          echo json_response("Successfully Loged in,Welcome back $username !"
                       ,200);
         } else {
           echo json_response("Error: no user with this info was found !"
