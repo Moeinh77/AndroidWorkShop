@@ -25,6 +25,11 @@
 
 :star:Wiadevelopers :http://yon.ir/8kf3s
 
+# PHP and MySql local host installation guide
+:star:youcode.ir :http://yon.ir/n8EqI
+
+:star:rokaweb.ir :http://yon.ir/zO4Nb
+
 # More on discussed topics
 #### Why Learning android programming:
 :star:Asayad :http://yon.ir/l6i88
