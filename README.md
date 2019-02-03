@@ -1,7 +1,7 @@
 # AndroidWorkShop
 ![](http://www.mediafire.com/convkey/ea90/8tisszd4pl9g493zg.jpg)
 
-# Android Studio Download and Installation
+# Android Studio and genymotion emulator Download and Installation
 #### Download:
 
 :star:Developer.android :https://developer.android.com/studio/
@@ -10,18 +10,18 @@
 
 :star:Genymotion :http://yon.ir/zx9zc
 
-#### Guides:
+#### Installation Guides:
 
 :star:Faradars :http://yon.ir/LKCOn
 
 :star:Android-studio.ir :http://yon.ir/Y785j
 
 # References for Learning Kotlin
-:star:Kotlin guide for java developers :http://yon.ir/yhEJ5
-
 :star:kotlinlang :http://yon.ir/DamVy
 
 :star:O'reilly :http://yon.ir/aCpW3
+
+:star:Kotlin guide for java developers :http://yon.ir/yhEJ5
 
 # References for Learning Layout and XML in Android
 :star:Udacity :http://yon.ir/QuXdD
@@ -38,17 +38,17 @@
 :star:ultraedit :http://yon.ir/74TpQ
 
 # More on discussed topics
-#### Why Learning android programming:
+#### Why you should learn android programming:
 :star:Asayad :http://yon.ir/l6i88
 
 :star:Android authority :http://yon.ir/czpK6
 
-#### Activites:
+#### Android Activites:
 :star:Developer.android :http://yon.ir/Lmpra
 
 :star:Programchi :http://yon.ir/oeySJ
 
-#### Volley:
+#### Volley Library:
 :star:Developer.android :http://yon.ir/vLsjp
 
 :star:Varvet :http://yon.ir/cTWZH (source for volley used code in the workshop)
