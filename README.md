@@ -1,6 +1,8 @@
 # AndroidWorkShop
 ![](http://www.mediafire.com/convkey/ea90/8tisszd4pl9g493zg.jpg)
 
+**Some links are expired! if you need them contact me by email that I have mentioned in my profile**
+
 # Android Studio and genymotion emulator Download and Installation
 #### Download:
 
